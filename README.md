@@ -1,8 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Bringing [paddle](https://paddle.com) payments together with [Next.js](https://nextjs.org).
+
 ## Getting Started
 
-First, run the development server:
+First, you have to enter your vendor details in the `.env` file and in `pages/product/[productId].js`.
+Install the dependencies with `npm install`. Then, you can run the dev server with:
 
 ```bash
 npm run dev
